@@ -36,6 +36,23 @@
             }
         }
     }
+
+    .down-arrow {
+        color: $secondary-color;
+        position: absolute;
+        bottom: 2%;
+        right: 50%;
+        opacity: 0.65;
+
+        img {
+            width: 100px;
+        }
+
+        &:hover {
+            opacity: 1;
+            cursor: pointer;
+        }
+    }
 }
 
 /* 
