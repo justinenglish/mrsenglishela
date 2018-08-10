@@ -13,6 +13,29 @@
         background-color: rgba(0, 0, 0, 0.65);
         position: relative;
     }
+
+    &-content {
+        color: $secondary-color;
+        position: fixed;
+        top: 3%;
+        left: 1%; 
+
+        &__title {
+            font-size: 6rem;
+            text-transform: uppercase;
+            line-height: 0.7;
+        }
+
+        &__sub-title {
+            text-transform: initial;
+            font-size: 2.5rem;
+            padding-left: 6px;
+
+            sup {
+                font-size: 1.5rem;
+            }
+        }
+    }
 }
 
 /* 
