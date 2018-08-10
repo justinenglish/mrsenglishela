@@ -1,0 +1,22 @@
+.header {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/src/image/teacher-banner.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+    &-mask {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.65);
+        position: relative;
+    }
+}
+
+/* 
+
+font-family: 'Dancing Script', cursive;
+
+*/
