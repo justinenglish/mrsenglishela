@@ -3,6 +3,7 @@
 @import "carousel";
 @import "text-block";
 @import "three-column";
+@import "separator";
 
 *, *:after, *:before {
     box-sizing: border-box;
@@ -23,8 +24,4 @@ html {
 
 .text-center {
     text-align: center;
-}
-
-.pull-left {
-    float: left;
 }
