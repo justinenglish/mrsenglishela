@@ -1,6 +1,14 @@
 @import "custom";
 @import "header";
 @import "carousel";
+@import "text-block";
+@import "three-column";
+
+*, *:after, *:before {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
 body, 
 html {
@@ -11,7 +19,8 @@ html {
     background-color: $secondary-color;
     color: $dark-gray;
     font-family: 'Open Sans Condensed', sans-serif;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
 }
