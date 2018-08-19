@@ -1,5 +1,9 @@
-.separator {
-    width: 25%;
-    border: 1px solid $gray-light;
-    display: inline-block;
+.separator-wrapper {
+    opacity: 0;
+
+    .separator {
+        width: 25%;
+        border: 1px solid $gray-light;
+        display: inline-block;
+    }
 }
