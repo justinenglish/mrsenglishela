@@ -7,11 +7,10 @@
     background-position: center;
     position: relative;
 
-    &-mask {
+    &__mask {
         width: 100%;
         height: 100%;
         background-color: rgba(0, 0, 0, 0.65);
-        position: relative;
     }
 
     &-nav {
@@ -27,6 +26,7 @@
             background-color: rgba(182,103,231,0.65);
             width: 50px;
             height: 50px;
+            line-height: 50px;
             transition: all 0.5s;
             text-align: center;
             float: right;
@@ -37,7 +37,6 @@
 
             &:hover {
                 background-color: rgba(255,255,255,0.3);
-                // background-color: rgba(182,103,231,0.3);
                 width: 125px;
                 border-left: 4px solid $secondary-color;
             }
@@ -46,29 +45,31 @@
                 display: block;
                 width: 100%;
                 height: 100%;
-                padding: 10px;
                 text-decoration: none;
                 color: $secondary-color;
             }
         }
     }
 
-    &-content {
+    &__content {
         color: $secondary-color;
         position: fixed;
-        top: 3%;
-        left: 1%; 
+        top: 12px;
+        left: 6px; 
 
         &__title {
-            font-size: 6rem;
+            font-size: 5rem;
             text-transform: uppercase;
             line-height: 0.7;
+            margin: 0;
+            font-weight: 100;
         }
 
         &__sub-title {
             text-transform: initial;
             font-size: 2.5rem;
             padding-left: 6px;
+            margin-top: 0;
 
             sup {
                 font-size: 1.5rem;
@@ -80,9 +81,8 @@
         color: $secondary-color;
         position: absolute;
         bottom: 2%;
-        right: 50%;
-        left: 50%;
-        margin-left: -30px;
+        width: 100%;
+        text-align: center;
         opacity: 0.65;
 
         img {
@@ -95,9 +95,3 @@
         }
     }
 }
-
-/* 
-
-font-family: 'Dancing Script', cursive;
-
-*/

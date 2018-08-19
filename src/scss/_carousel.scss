@@ -1,0 +1,44 @@
+.carousel {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+
+    p {
+        text-align: center;
+        font-weight: 100;
+        font-family: 'Dancing Script', cursive;
+        color: $secondary-color;
+    }
+
+    &__slide {
+
+        &-quote {
+            margin-top: 10px;
+            font-size: 2.5rem;
+            margin-bottom: 0;
+        }
+
+        &-author {
+            margin: 8px 0 0;
+            font-size: 1.5rem;
+        }
+
+        &.fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+    }
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+  
