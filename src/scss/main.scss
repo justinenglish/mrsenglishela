@@ -5,6 +5,7 @@
 @import "three-column";
 @import "separator";
 @import "blog";
+@import "footer";
 
 *, *:after, *:before {
     box-sizing: border-box;
@@ -25,4 +26,8 @@ html {
 
 .text-center {
     text-align: center;
+}
+
+.clearfix {
+    clear: both;
 }
