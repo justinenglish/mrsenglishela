@@ -7,4 +7,44 @@
         color: $primary-color;
         font-weight: 100;
     }
+
+    &__column-container {
+        width: 100%; 
+        min-height: 150px;
+        padding-left: 17%;
+
+        .text-block__column {
+            float: left; 
+            width: 25%;
+
+            ul {
+                list-style-type: none;
+                padding: 0;
+                margin: 0;
+
+                li {
+                    padding-left: 1%;
+                    padding-bottom: 1%;
+
+                    a {
+                        text-decoration: none;
+                        color: inherit;
+                        font-size: 1.25rem;
+
+                        &:hover,
+                        &:focus {
+                            color: $primary-color;
+                        }
+                    }
+
+                    &::before {
+                        content: "•";
+                        font-size: 1rem;
+                        padding-right: 8px;
+                        color: $primary-color;
+                    }
+                }
+            } 
+        }
+    }
 }
