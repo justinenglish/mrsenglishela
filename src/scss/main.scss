@@ -4,6 +4,7 @@
 @import "text-block";
 @import "three-column";
 @import "separator";
+@import "blog";
 
 *, *:after, *:before {
     box-sizing: border-box;
@@ -17,7 +18,7 @@ html {
     height: 150%;
     margin: 0;
     padding: 0;
-    background-color: $secondary-color;
+    background-color: #fff;
     color: $dark-gray;
     font-family: 'Open Sans Condensed', sans-serif;
 }
