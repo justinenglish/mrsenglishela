@@ -84,6 +84,12 @@
         width: 100%;
         text-align: center;
         opacity: 0.65;
+        -webkit-animation-name: bounce;
+        -webkit-animation-duration: 1.5s;
+        -webkit-animation-iteration-count: 6;
+        animation-name: bounce;
+        animation-duration: 1.5s;
+        animation-iteration-count: 6;
 
         img {
             width: 100px;
