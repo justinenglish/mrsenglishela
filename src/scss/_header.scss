@@ -27,7 +27,7 @@
             width: 50px;
             height: 50px;
             line-height: 50px;
-            transition: all 0.5s;
+            transition: all 0.3s;
             text-align: center;
             float: right;
             display: block;
@@ -39,6 +39,14 @@
                 background-color: rgba(255,255,255,0.3);
                 width: 125px;
                 border-left: 4px solid $secondary-color;
+                
+                span {
+                    display: inline-block !important;
+                }
+
+                .header-nav__icon {
+                    display: none;
+                }
             }
 
             a {
