@@ -9,13 +9,13 @@
 }
 
 @-webkit-keyframes bounce {
-    0% {bottom: 2%;} 
-    50% {bottom: 4%}
-    100% {bottom: 2%}
+    0% {bottom: -4%;} 
+    50% {bottom: -1%}
+    100% {bottom: -4%}
 }
   
 @keyframes bounce {
-    0% {bottom: 2%;} 
-    50% {bottom: 4%}
-    100% {bottom: 2%}
+    0% {bottom: -4%;} 
+    50% {bottom: -1%}
+    100% {bottom: -4%}
 }

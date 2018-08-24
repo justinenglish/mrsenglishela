@@ -1,6 +1,7 @@
 import "../scss/main.scss";
 import "../js/carousel.js";
 import "../js/fade-in-content.js";
+import "../js/nav.js";
 import "vendor/js/fontawesome-all.min.js";
 
 $(window).scroll(function() {

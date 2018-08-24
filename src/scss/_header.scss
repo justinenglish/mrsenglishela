@@ -88,8 +88,9 @@
     .down-arrow {
         color: $secondary-color;
         position: absolute;
-        bottom: 2%;
-        width: 100%;
+        left: 50%;
+        bottom: -1%;
+        width: auto;
         text-align: center;
         opacity: 0.65;
         -webkit-animation-name: bounce;
@@ -98,6 +99,8 @@
         animation-name: bounce;
         animation-duration: 1.5s;
         animation-iteration-count: 6;
+        -webkit-transform: translate(-50%, -50%);
+        transform: translate(-50% , -50%);
 
         img {
             width: 100px;
