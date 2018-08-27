@@ -19,3 +19,17 @@
     50% {bottom: -2%}
     100% {bottom: -6%}
 }
+
+@media (max-width: 568px) {
+    @-webkit-keyframes bounce {
+        0% {bottom: -2%;} 
+        50% {bottom: 0}
+        100% {bottom: -2%}
+    }
+      
+    @keyframes bounce {
+        0% {bottom: -2%;} 
+        50% {bottom: 0%}
+        100% {bottom: -2%}
+    }
+}

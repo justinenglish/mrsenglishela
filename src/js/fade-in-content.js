@@ -4,11 +4,13 @@ $(window).scroll( function(){
         var elementBottom = $(this).position().top + $(this).outerHeight();
         var windowBottom = $(window).scrollTop() + $(window).height();
 
-        if(windowBottom > elementBottom) {         
+        if(windowBottom > elementBottom && $(window).width > 568) {         
             $(this).animate({
                 'opacity':'1'
             }, 1500);   
-        }   
+        }else {
+            $(this).css("opacity", "1");
+        } 
     }); 
 
 });

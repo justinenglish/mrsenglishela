@@ -10,7 +10,7 @@ function scrollTo(target, offset) {
 $(".header-nav__mobile").on("click", function() {
     // $(this).children("div").toggleClass("open");  
     // $(".header-nav__mobile-list").toggleClass("display-none");
-    $(".header-nav__mobile-list").css("width", "250px");
+    $(".header-nav__mobile-list").css("width", "200px");
     $(".header-nav__mobile-list--close").css("opacity", "1");
 });
 
