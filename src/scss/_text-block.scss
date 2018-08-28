@@ -52,3 +52,15 @@
         }
     }
 }
+
+@media (min-width: 568px) and (max-width: 768px) {
+    .text-block__column-container .text-block__column {
+        width: 50%;
+    }
+}
+
+@media (max-width: 567px) {
+    .text-block__column-container .text-block__column {
+        width: 100%;
+    }
+}

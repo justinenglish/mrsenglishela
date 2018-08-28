@@ -72,3 +72,17 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .three-column-wrapper {
+        overflow: inherit;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+
+        .three-column__item-container {
+            float: none;
+            width: 100%;
+        }
+    }
+}

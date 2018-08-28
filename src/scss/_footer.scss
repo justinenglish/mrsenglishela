@@ -26,3 +26,25 @@
         text-decoration: underline;
     }
 }
+
+@media (max-width: 768px) {
+    .footer-wrapper {
+
+        .footer-container {
+            .footer-title {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-wrapper {
+
+        .footer-container {
+            .copyright {
+                font-size: 0.5rem;
+            }
+        }
+    }
+}

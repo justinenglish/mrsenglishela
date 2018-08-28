@@ -7,3 +7,9 @@
         display: inline-block;
     }
 }
+
+@media (max-width: 568px) {
+    .separator-wrapper .separator {
+        width: 55%;
+    }
+}

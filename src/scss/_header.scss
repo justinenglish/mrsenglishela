@@ -228,6 +228,14 @@
     .header-nav__mobile {
         right: 30px;
     }
+
+    .blog-wrapper {
+        margin: 2% 5% !important;
+    
+        .blog-container .blog-item {
+            width: 49% !important;
+        }
+    }
 }
 
 @media (max-width: 768px) {

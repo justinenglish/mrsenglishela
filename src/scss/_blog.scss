@@ -52,3 +52,10 @@
         font-weight: 100;
     }
 }
+
+@media (max-width: 576px) {
+    .blog-container .blog-item {
+        width: 100% !important;
+        padding: 2% !important;
+    }
+}
